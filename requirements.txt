@@ -1,0 +1,5 @@
+tqdm>=4.0
+numpy>=1.21
+matplotlib>=3.5
+jupyterlab   # optional – for running test.ipynb in JupyterLab
+ipython       # optional – for interactive sessions
