@@ -23,13 +23,13 @@ This repository contains a minimal, fully‑documented implementation that can b
 
 | Class | Purpose |
 |-------|---------|
-| **ChkobaDeck** | Generates a full 32‑card deck, shuffles it, and allows drawing cards. |
+| **ChkobaDeck** | Generates a full 40‑card deck, shuffles it, and allows drawing cards. |
 | **Table**      | Holds the current cards on the table; handles capture logic when a player plays a card. |
 | **PlayerHand** | Represents a player's hand of cards and their captured pile. |
 
 Key functions:
 
-- `ChkobaDeck.create_full_deck()` – builds the 32‑card deck.
+- `ChkobaDeck.create_full_deck()` – builds the 40‑card deck.
 - `Table.play_card(player_hand, card_or_index)` – applies the capture rules:
   - Direct value match (single card).
   - Combination of table cards that sum to the played card’s value.
