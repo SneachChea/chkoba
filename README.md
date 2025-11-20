@@ -1,4 +1,4 @@
-# Chkoba – A Simple Python Implementation of the Tunisian Card Game
+# ♦️ Chkoba – A Simple Python Implementation of the Tunisian Card Game
 
 Chkoba is a traditional Tunisian card game played with a 40‑card deck.
 This repository contains a minimal, fully‑documented implementation that can be used for:
